@@ -24,3 +24,44 @@
     z-index: 9999;
     background-color:black ;
 }
+
+.navigationBar{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    grid-gap: 20px;
+    justify-content: left;
+    padding-left: 200px;
+    color: white;
+    font-size:8px !important;
+    padding-top: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+
+}
+
+.home h2{
+
+    color: white;
+}
+.home {
+    text-decoration: none;
+}
+
+.home h2:hover {
+    color:grey;
+}
+
+.mylist h2{
+    color: white;
+}
+
+.mylist {
+    text-decoration: none;
+}
+
+.mylist h2:hover {
+    color:grey;
+}
+.active{
+    color: red;
+}

@@ -26,6 +26,7 @@ function App() {
             <Footer/>
           </Route>
           <Route path = "/my-list">
+          <Navbar/>
           </Route>
         </Switch>
       </Router>
