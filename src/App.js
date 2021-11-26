@@ -27,9 +27,9 @@ function App() {
             <Footer/>
           </Route>
           <Route path = "/my-list">
-          <Navbar/>
-          <MyList/>
-          <Footer/>
+            <Navbar/>
+            <MyList/>
+            <Footer/>
           </Route>
         </Switch>
       </Router>
