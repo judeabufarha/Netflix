@@ -47,3 +47,46 @@
     transition: all 0.2s;
     opacity: 50%;
 }
+
+@media screen and (max-width: 1500px) {
+    .btn_play{
+        transition: ease all .5s;
+        top: 70%;
+    }
+    .btn_moreInfo{
+        transition: ease all .5s;
+        top: 70%;  
+    }
+
+}
+@media screen and (max-width: 1250px) {
+    .btn_play{
+        transition: ease all .5s;
+        top: 75%; 
+  }
+  .btn_moreInfo{
+    transition: ease all .5s;
+    top: 75%;  
+    }
+}
+@media screen and (max-width: 1200px) {
+    .btn_play{
+        transition: ease all .5s;
+        top: 78%; 
+  }
+  .btn_moreInfo{
+    transition: ease all .5s;
+    top: 78%;  
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .btn_play{
+        transition: ease all .5s;
+        top: 80%;   
+  }
+  .btn_moreInfo{
+    transition: ease all .5s;
+    top: 80%;  
+    }
+}
