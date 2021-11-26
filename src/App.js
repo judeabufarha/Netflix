@@ -13,6 +13,7 @@ import {Navbar} from './components/navbar';
 import {TopBanner} from './components/topbanner';
 import {MovieSection} from './components/moviesection';
 import { Footer } from './components/footer';
+import {MyList} from "./components/mylist";
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
           </Route>
           <Route path = "/my-list">
           <Navbar/>
+          <MyList/>
+          <Footer/>
           </Route>
         </Switch>
       </Router>
