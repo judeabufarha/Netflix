@@ -1,0 +1,34 @@
+
+.title_headings{
+    display: flex;
+    justify-content: flex-start;
+    font-size: 1.2rem;
+    color:white;
+    padding-top: 20px;
+    cursor: pointer;
+    padding-left: 50px;
+}
+
+.image_list{
+    padding-right: 12px;
+    transition:tranform 450ms;
+    padding-bottom: 20px;
+}
+
+.image_list:hover{
+    transform: scale(1.02);
+    opacity: 1;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    padding-left: 50px;
+    overflow: scroll;
+}
+
+.row::-webkit-scrollbar{
+    display: none;
+}

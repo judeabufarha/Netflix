@@ -1,0 +1,49 @@
+.btn_play{
+    position: absolute;
+    top: 65%;
+    left: 70px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: black;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    background-color: white;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: large;
+}
+
+.btn_moreInfo{
+    position: absolute;
+    top: 65%;
+    left: 180px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: white;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-right: 1rem;
+    background-color: rgba(109,109,110,0.7);
+    opacity: 80%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: large;
+}
+
+.btn_play:hover{
+    transition: all 0.2s;
+    background-color:#D3D3D3;
+    opacity: 80%;
+}
+
+.btn_moreInfo:hover{
+    transition: all 0.2s;
+    opacity: 50%;
+}

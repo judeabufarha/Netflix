@@ -1,0 +1,87 @@
+.top_banner{
+    position: relative;
+    overflow: hidden;
+}
+.banner_img{
+    background-size: cover;
+    width: 100%;
+}
+
+.title_img{
+    position: absolute;
+    top: 20%;
+    left: 70px;
+    width: 35%;
+}
+
+.message{
+    position: absolute;
+    top: 45%;
+    left: 70px;
+    color: white;
+    padding-bottom: 10px;
+}
+
+.synopsis{
+    position: absolute;
+    top: 52%;
+    left: 70px;
+    color: white;
+    width:30%;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+@media screen and (max-width: 1785px) {
+    .synopsis {
+        transition: ease all .5s;
+        font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 1480px) {
+    .synopsis {
+        transition: ease all .5s;
+        padding-top: 10px;
+        font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 1056px) {
+    .synopsis {
+        transition: ease all .5s;
+        padding-top: 40px;
+        font-size: 18px;
+    }
+    .message{
+        transition: ease all .5s;
+        font-size: 30px;
+    }
+  }
+
+  @media screen and (max-width: 1056px) {
+    .synopsis {
+        transition: ease all .5s;
+        padding-top: 30px;
+        font-size: 15px;
+        width:40%;
+    }
+    .message{
+        transition: ease all .5s;
+        font-size: 25px;
+    }
+  }
+
+  
+  @media screen and (max-width: 715px) {
+    .synopsis {
+        transition: ease all .5s;
+        padding-top: 30px;
+        font-size: 12px;
+        width:40%;
+    }
+    .message{
+        transition: ease all .5s;
+        font-size: 20px;
+    }
+  }
